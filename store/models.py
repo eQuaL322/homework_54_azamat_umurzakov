@@ -23,7 +23,7 @@ class Category(models.Model):
         null=False,
         blank=False,
         related_name="category",
-        on_delete=models.RESTRICT()
+        on_delete=models.RESTRICT
     )
     title = models.CharField(max_length=200, blank=False, null=False, verbose_name="Наименование")
     description = models.TextField(max_length=2000, blank=True, null=True, verbose_name="Описание")

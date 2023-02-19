@@ -1,0 +1,32 @@
+.navbar-expand-lg .navbar-collapse {
+    flex-direction: row-reverse;
+    margin-right: 150px;
+}
+
+.nav-item {
+
+}
+
+.card {
+    margin: 25px 35px;
+    flex-direction: row !important;
+    align-items: center !important;
+    width: 500px;
+}
+
+.card-solo {
+    margin: 25px 35px;
+    flex-direction: row !important;
+    align-items: center !important;
+    width: 1200px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card img {
+    width: 50% !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: calc(0.25rem - 1px) !important;
+}
