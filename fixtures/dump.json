@@ -402,6 +402,30 @@
   }
 },
 {
+  "model": "store.product",
+  "pk": 5,
+  "fields": {
+    "title": "Хлеб",
+    "description": "Свежий домашний хлеб",
+    "category": 4,
+    "created_date": "2023-02-20T16:54:41.110Z",
+    "price": "14.99",
+    "image": "https://img1.freepng.ru/20180127/hsq/kisspng-breakfast-zwieback-bread-p%C3%A3o-de-queijo-rusk-three-dried-slice-of-bread-5a6cf1d7542924.6686744015170892393447.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 6,
+  "fields": {
+    "title": "Буратино",
+    "description": "Газированный напиток",
+    "category": 3,
+    "created_date": "2023-02-20T17:18:01.452Z",
+    "price": "9.99",
+    "image": "https://dastarkhan24.kz/upload/resize_cache/iblock/418/250_250_2/418c882e5f83c9a83e9530bd2d204f8e.jpg"
+  }
+},
+{
   "model": "store.category",
   "pk": 1,
   "fields": {
@@ -413,8 +437,16 @@
   "model": "store.category",
   "pk": 3,
   "fields": {
-    "title": "Вода",
-    "description": "Газированая"
+    "title": "Напитки",
+    "description": "Газированные, без газов, натуральные"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 4,
+  "fields": {
+    "title": "Мучные изделия",
+    "description": ""
   }
 }
 ]

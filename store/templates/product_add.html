@@ -6,6 +6,7 @@
     </div>
     <div class="row mx-5 align-items-center">
         <form action="{% url 'product_add_view' %}" method="post">
+            {% csrf_token %}
             <div class="row mt-3">
                 <div class="col-4">
                     <input required type="text" id="title" name="title" class="form-control" placeholder="Title">

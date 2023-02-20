@@ -13,4 +13,4 @@ def category_add_view(request: WSGIRequest):
     }
     category = Category.objects.create(**category_data)
 
-    return redirect(request, 'products_view.html')
+    return redirect('products_view')
