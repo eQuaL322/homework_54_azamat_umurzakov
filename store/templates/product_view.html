@@ -2,15 +2,14 @@
 {% block title %}Product{% endblock %}
 {% block content %}
     <div class="card card-solo">
-        <img alt='img' height="450px" width="350px" src="{{ product.image }}"
+        <img alt='img' height="450px" width="450px" src="{{ product.image }}"
              class="card-img-top"/>
         <div class="card-body">
-            <h3 class="card-title">{{ product.title }}</h3>
-            <p class="card-text">{{ category.title }}</p>
+            <h2 class="card-title">{{ product.title }}</h2>
+            <p class="card-text">{{ product.category.title }}</p>
             <h5 class="card-title">Price: {{ product.price }}</h5>
-            <p class="card-text">{{ product.description }}</p>
+            <p class="card-text prd_desc">{{ product.description }}</p>
             <p class="card-text">added: {{ product.created_date }}</p>
         </div>
     </div>
-
 {% endblock %}

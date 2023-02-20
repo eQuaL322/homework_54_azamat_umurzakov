@@ -4,7 +4,7 @@
 }
 
 .navbar-brand {
-    margin-left: 30px !important;
+    margin-left: 50px !important;
 }
 
 .card {
@@ -12,6 +12,11 @@
     flex-direction: row !important;
     align-items: center !important;
     width: 500px;
+}
+
+.card-body {
+    margin-left: 25px !important;
+
 }
 
 .card-solo {
@@ -26,7 +31,7 @@
 }
 
 .card img {
-    width: 35% !important;
+    width: 45% !important;
     border-top-right-radius: 0 !important;
     border-bottom-left-radius: calc(0.25rem - 1px) !important;
 }
@@ -39,4 +44,8 @@
 .btn {
     --bs-btn-padding-x: 0rem !important;
     --bs-btn-padding-y: 0rem !important;
+}
+
+.prd_desc {
+    font-weight: bold;
 }
