@@ -3,12 +3,12 @@
     margin-right: 150px;
 }
 
-.nav-item {
-
+.navbar-brand {
+    margin-left: 30px !important;
 }
 
 .card {
-    margin: 25px 35px;
+    margin: 25px 25px;
     flex-direction: row !important;
     align-items: center !important;
     width: 500px;
@@ -26,7 +26,17 @@
 }
 
 .card img {
-    width: 50% !important;
+    width: 35% !important;
     border-top-right-radius: 0 !important;
     border-bottom-left-radius: calc(0.25rem - 1px) !important;
+}
+
+
+.btn-link {
+    text-decoration: underline;
+}
+
+.btn {
+    --bs-btn-padding-x: 0rem !important;
+    --bs-btn-padding-y: 0rem !important;
 }

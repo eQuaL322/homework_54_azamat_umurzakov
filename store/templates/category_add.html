@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}Add Category{% endblock %}
+{% block content %}
+    <div class="row text-left mt-3 mx-1">
+        <h3 class="mx-5">Add Category</h3>
+    </div>
+    <div class="row mx-5 align-items-center">
+        <form action="{% url 'category_add' %}" method="post">
+            {% csrf_token %}
+            <div class="row mt-5">
+                <div class="col-4">
+                    <input required type="text" id="title" name="title" class="form-control" placeholder="Title">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-4">
+                    <textarea rows="6" required id="description" name="description" class="form-control"
+                              placeholder="Description"></textarea>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-1">
+                    <input type="submit" class="btn btn-dark mx-2" value="Add category">
+                </div>
+            </div>
+        </form>
+    </div>
+{% endblock %}
